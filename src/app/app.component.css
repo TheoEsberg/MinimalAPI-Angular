@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin: 3em;
+}
+
+.table td {
+    background-color: lightblue;
+}
+
+.table td:nth-child(){
+    background-color: orange;
+} */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Apply a background color to the whole page */
+  body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the Main to center everything */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 98vw;
+  }
+
+  /* Style the container */
+  .container {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style table headers */
+  .table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style table rows */
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style table data cells */
+  .table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Color the 'IsAvailable' cell based on the value */
+  .table td.isAvailable-true {
+    color: green;
+  }
+  
+  .table td.isAvailable-false {
+    color: red;
+  }
+  
+  /* Hover effect on table rows */
+  .table tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .table a {
+    z-index: 1;
+  }
+
+  /* Add some spacing around the container */
+  .container {
+    margin: 20px;
+  }
+  
+
+  /* ------------------------------- FORM -------------------------------- */
+  /* Style the form container */
+.add-book-form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style form headings */
+  .add-book-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style form labels */
+  .add-book-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style form inputs and textarea */
+  .add-book-form input[type="text"],
+  .add-book-form input[type="number"],
+  .add-book-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style form checkboxes */
+  .add-book-form input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  /* Style form submit button */
+  .add-book-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Hover effect on form submit button */
+  .add-book-form button:hover {
+    background-color: #555;
+  }
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
